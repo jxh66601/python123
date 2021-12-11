@@ -16,3 +16,16 @@ for i in range(1,n+1):
     if i%m != 0:
         list2.append(i)
 print(list2)
+
+
+import random
+
+# n = int(input())
+# random.seed(n)
+# m = random.randint(1,n)
+# ls = list(range(1,n+1))
+# print(ls)
+# lsdell = [i for i in ls if i%m ==0 ]
+# for i in ls and lsdell:
+# 	ls.remove(i)
+# print(ls)

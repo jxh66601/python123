@@ -18,3 +18,9 @@ print(len(list1))
 list1.sort()
 print(list1)
 
+ls = []
+for i in range(1000,10000):
+    if i % 11 == 0 and sum(map(int,list(str(i)))) == 6 and len(set(list(str(i)))) == 4:
+        ls.append(i)
+print(len(ls))
+print(ls)
